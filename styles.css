@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    background-color: #e9ecf0;
+    padding: 10px;
+}
+
+.container > h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.container > form > input[type=text] {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.container > form > .add {
+    background-color: #33A849;
+}
+
+.container > ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.container > ul > li {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container > ul > li > .texto {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    width: 55%;
+}
+
+.container > ul > li > .edit {
+    background-color: #ffca2c;
+    color: black;
+}
+
+.container > ul > li > .delete {
+    margin-right: 5px;
+    background-color: #D83148;
+}
+
+.container > ul > li > .texto > input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.container > ul > li > .texto > .save {
+    background-color: #33A849;
+    margin-top: 5px;
+}
+
+
